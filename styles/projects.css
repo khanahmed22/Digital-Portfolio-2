@@ -1,0 +1,86 @@
+
+.Project-indicator{
+  text-decoration: underline;
+  font-weight: 700;
+
+}
+
+.project-icon{
+
+  margin-left:10px;
+}
+
+.contact-icon{
+
+  margin-left:10px;
+}
+
+.home-icon{
+
+  margin-left:5px;
+}
+
+h2{
+
+  margin-left: 100px;
+}
+
+.col-sm{
+  width: 60%;
+}
+
+.col-sm img{
+
+  width:80%;
+  border-radius: 10px;
+} 
+
+
+
+
+
+@media (max-width:500px){
+  nav li a{
+    font-size: 15px;
+  }
+  nav li a img{
+    width:30px;
+  }
+
+  
+  
+  .col-sm img{
+    margin-bottom: 25px;
+    width:100%;
+    margin-left: -25px;
+  }
+
+ 
+}
+
+
+.social-links{
+
+  display: flex;
+  justify-content:space-evenly;
+
+  width:100%;
+  
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  
+  height: 50px;
+  
+  
+
+  
+}
+
+.social-links img{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,166 @@
+*{
+  color: white;
+  font-family: sans-serif;
+}
+
+
+.col-sm li{
+  list-style: none;
+  margin-left: -50px;
+}
+
+
+
+.col-sm h2{
+  margin-left: -17px;
+}
+
+
+
+nav{
+  display: flex;
+  padding-top: 20px;
+  border-radius: 10px;
+  
+  width: 100%;
+  
+  background-color: white;
+  align-items: center;
+  margin-bottom: 20px;
+  
+  
+  
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  align-items: center;
+
+  
+
+  
+}
+
+nav li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  justify-content: space-around;
+  margin-right: 20px;
+ 
+  border-radius: 10px;
+
+}
+
+
+
+ .Home-indicator{
+
+  text-decoration: underline;
+  font-weight: 700;
+ }
+
+
+ .project-icon{
+
+  margin-left:10px;
+}
+
+.contact-icon{
+
+  margin-left:10px;
+}
+
+.home-icon{
+
+  margin-left:5px;
+}
+
+nav li a img{
+
+  width: 23px;
+}
+
+.row .col-sm p{
+
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+
+.row .col-sm li{
+  font-size: 17px;
+  margin-bottom: 10px;
+} 
+
+
+
+@media (max-width:500px){
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  
+  nav li a{
+    font-size: 17px;
+  }
+  nav li a img{
+    width:20px;
+    display: block;
+    
+
+  }
+
+ 
+
+ 
+}
+
+.lottie{
+  
+  width: 300px; 
+  height: 300px;
+}
+
+@media (min-width:1000px){
+
+  .col-sm img{
+
+    margin-left: 100px;
+  }
+
+  .lottie{
+
+    margin-left: 100px;
+  }
+
+ 
+
+}
+
+.social-links{
+
+  display: flex;
+  justify-content:space-evenly;
+  width:100%;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  
+  height: 50px;
+  
+
+  
+}
+
+.social-links img{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

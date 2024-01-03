@@ -1,0 +1,142 @@
+
+
+
+.NAME{
+
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width:90%;
+  color: black;
+}
+
+.EMAIL{
+  display: block;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width:90%;
+  color: black;
+
+}
+
+.MESSAGE{
+
+  background-color: white;
+  
+  font-size: 20px;
+  margin-bottom: 5px;
+  width:90%;
+  height: 80px;
+  padding:20px;
+  padding-bottom: 100px;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  color: black;
+}
+
+.SUBMIT{
+
+  display: block;
+  background-color: rgb(4, 161, 70);
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  margin-left: 24%;
+  margin-right: 26%;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: width 0.5s;
+}
+
+.SUBMIT:hover{
+
+  background-color: green;
+  width: 200px;
+}
+
+
+.social-links{
+
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 70px;
+  width:100%;
+  
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  
+  height: 50px;
+  
+  
+
+  
+}
+
+.social-links img{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Contact-Indicator{
+
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+
+.project-icon{
+
+  margin-left:10px;
+}
+
+.contact-icon{
+
+  margin-left:10px;
+}
+
+.home-icon{
+
+  margin-left:5px;
+}
+
+@media (max-width:500px){
+  nav li a{
+    font-size: 17px;
+  }
+  nav li a img{
+    width:35px;
+  }
+
+  h2{
+
+    margin-left: 20px;
+    margin-bottom: 50px;
+    
+  }
+
+
+  .col-sm{
+
+    margin-left: 24px;
+    
+  }
+
+ 
+
+ 
+}
